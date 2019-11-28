@@ -1,5 +1,25 @@
-<?php
 
+
+    /* 	student Name: Adarshpreet Singh
+    	student ID: 201800198
+       	date:28/11/2019
+       	name of work:  Game Pokemon
+       	Language: PHP
+    */
+
+References: 
+https://www.tutorialrepublic.com/php-tutorial/php-classes-and-objects.php 
+http://www.psypokes.com/lab/attacks.php   
+
+/* Program Design:
+1. Construct a POKEMON CLASS
+2. Make 5 Pokemon Objects
+3. Put them into an ARRAY: The array elements are your POKEBALLs
+4. Use Random numbers to pull out 2 Pokemon
+5. Battles are done with Methods and Random Number Generators for Attack Strengths
+6. Use https://paiza.io/ to smith your Code.
+<?php
+$pokemonName = 
 class Pokemon
 {
     // Declare  properties
@@ -19,6 +39,21 @@ for($counter=1; $counter<6; $counter++){
 }
 
 
+for($battlesCount=1;$battlesCount<=10 ;$battlesCount++)
+{
+    echo "BATTLE:".$battlescount;
+    $pokemon1= array_pop($Pokeballs);
+    $pokemon2= array_pop($Pokeballs);
+    
+   $pokemon1_attackStrength = $pokemon1->doPokemonAttack();
+   $pokemon2_attackStrength = $pokemon2->doPokemonAttack();
+   echo "Pokemon 1 attack Strength :".$pokemon1_attackStrength."\r\n";
+   echo "Pokemon 1 attack Strength :".$pokemon1_attackStrength."\r\n";
+}
+
+
+
+
+
 echo "fini";
 ?>
-
